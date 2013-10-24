@@ -1,0 +1,293 @@
+/**
+ * ---------------------------------------------------------------------------------
+ * Global Styles
+ * Don't edit these styles. They affect all things.
+ * ---------------------------------------------------------------------------------
+ */
+body {
+  font-family: 'Adelle Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.5;
+  vertical-align: baseline; }
+
+/**
+ * Links, by default, use the color
+ * of the text around them rather than
+ * defaulting to blue
+ */
+a {
+  color: inherit; }
+
+/**
+ * ---------------------------------------------------------------------------------
+ * Image Styles
+ * ---------------------------------------------------------------------------------
+ */
+.t-imageLeft {
+  float: left;
+  margin: 21px;
+  margin-left: 0;
+  max-width: 320px; }
+
+.t-imageRight {
+  float: right;
+  margin: 21px;
+  margin-right: 0;
+  max-width: 320px; }
+
+.t-imageFull {
+  margin: 21px 0;
+  max-width: 100%; }
+
+/**
+ * ---------------------------------------------------------------------------------
+ * List Styles
+ * ---------------------------------------------------------------------------------
+ */
+/**
+ * Move a list inside. Normally, list bullets will sit
+ * outside of the content, allowing for better reading. However
+ * sometimes you want to list to be within the content border
+ */
+.t-listInside {
+  margin-left: 20px; }
+
+/**
+ * ---------------------------------------------------------------------------------
+ * Table Styles
+ * ---------------------------------------------------------------------------------
+ */
+.t-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 21px 0; }
+  .t-table td,
+  .t-table th {
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: 10px;
+    font-weight: normal;
+    vertical-align: middle;
+    text-align: left;
+    background: white; }
+  .t-table th {
+    font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    background-color: #318C19;
+    background-image: linear-gradient(top, #228b07, #1f7d07);
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase; }
+  .t-table tr:nth-child(2n-1) td {
+    background-color: #f5f5f5; }
+
+/**
+ * ---------------------------------------------------------------------------------
+ * Title Styles
+ * ---------------------------------------------------------------------------------
+ */
+/**
+ * These styles set the size, weight, family and other text
+ * styles for heading sizes. We shouldn't need to add more titles
+ * than these. Any custom titles belong in the component where they
+ * are needed.
+ *
+ * Avoid setting colours here so that we can use modifiers
+ * to change it.
+ */
+/**
+ * This title style should always be green
+ */
+.t-h1, .t-copy h1 {
+  font-size: 4.236em;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 60px;
+  letter-spacing: -2px; }
+
+.t-h2, .t-copy h2 {
+  font-size: 2.618em;
+  line-height: 42px;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -1.5px;
+  font-style: normal; }
+
+.t-h3, .t-copy h3 {
+  font-size: 1.618em;
+  font-weight: normal;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.t-h4, .t-copy h4 {
+  font-size: 1em;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+/**
+ * ---------------------------------------------------------------------------------
+ * Link Styles
+ * ---------------------------------------------------------------------------------
+ */
+/**
+ * Default link style. By default, links look like
+ * normal text when just using the anchor tag.
+ * The style of the link is set using a class like this,
+ * or by using a parent class
+ */
+.t-link {
+  color: #318C19;
+  text-decoration: underline; }
+  .t-link:hover {
+    color: #38A21D; }
+
+/**
+ * Make a link invisible. Useful for making
+ * titles links but without adding an underline.
+ * This is used when we want to be forgiving and
+ * allow users to click things, but it would look
+ * gross if it had an underline.
+ */
+.t-invisibleLink {
+  text-decoration: none; }
+
+/**
+ * A link that becomes more "linky" when it is hovered.
+ * Use this when you want something to not look like a
+ * link because it would be to dominant (eg. a list of links)
+ * but you want them to still be obviously clickable.
+ */
+.t-hoverLink {
+  text-decoration: none; }
+  .t-hoverLink:hover {
+    text-decoration: underline; }
+
+/**
+ * Style for an inverse link to be used on dark backgrounds
+ */
+.t-inverseLink {
+  color: #fff;
+  text-decoration: underline;
+  -webkit-font-smoothing: antialiased; }
+  .t-inverseLink:hover {
+    color: #fff; }
+
+/**
+ * ---------------------------------------------------------------------------------
+ * Text Styles
+ * ---------------------------------------------------------------------------------
+ */
+.t-small, .t-legal, .t-copy small {
+  font-size: 0.85714em;
+  line-height: 18px; }
+
+.t-legal, .t-copy small {
+  display: block; }
+  .t-legal p, .t-copy small p,
+  .t-legal li,
+  .t-copy small li {
+    -webkit-font-smoothing: subpixel-antialiased; }
+
+.t-highlight, .t-copy mark {
+  color: #318C19; }
+
+.t-subtle, .t-legal, .t-copy small {
+  color: #888; }
+
+.t-strong {
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500; }
+
+.t-white, .t-copy.t-inverse,
+.t-inverse {
+  color: white;
+  -webkit-font-smoothing: antialiased; }
+
+.t-loud {
+  text-transform: uppercase; }
+
+.t-lead {
+  font-size: 1.28571em;
+  line-height: 23px;
+  text-align: left; }
+
+/**
+ * ---------------------------------------------------------------------------------
+ * Paragraph Styles
+ * ---------------------------------------------------------------------------------
+ */
+.t-right {
+  text-align: right; }
+
+.t-left {
+  text-align: left; }
+
+.t-center {
+  text-align: center; }
+
+.t-justify {
+  text-align: justify; }
+
+.t-tight {
+  line-height: 18px; }
+
+.t-loose {
+  line-height: 22px; }
+
+/**
+ * ---------------------------------------------------------------------------------
+ * Copy Styles
+ * ---------------------------------------------------------------------------------
+ */
+.t-copy *:first-child {
+  margin-top: 0; }
+.t-copy ul,
+.t-copy ol,
+.t-copy table,
+.t-copy address,
+.t-copy small,
+.t-copy p {
+  margin-bottom: 10.5px; }
+.t-copy p,
+.t-copy li,
+.t-copy address {
+  -webkit-font-smoothing: antialiased; }
+.t-copy em {
+  font-style: italic; }
+.t-copy strong {
+  font-weight: bold; }
+.t-copy address {
+  font-style: normal; }
+.t-copy a {
+  color: #318C19;
+  text-decoration: underline; }
+  .t-copy a:hover {
+    color: #38A21D; }
+.t-copy h1 {
+  margin-bottom: 21px; }
+.t-copy h2 {
+  margin-bottom: 10.5px;
+  margin-top: 42px; }
+.t-copy h3 {
+  margin-top: 31.5px;
+  margin-bottom: 10.5px;
+  text-transform: uppercase; }
+.t-copy h4 {
+  margin-top: 21px;
+  text-transform: uppercase;
+  margin-bottom: 0; }
+
+.t-copy.t-inverse a,
+.t-copy.t-inverse a:hover {
+  color: #fff; }
