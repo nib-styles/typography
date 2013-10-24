@@ -21,6 +21,14 @@ body {
 a {
   color: inherit; }
 
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc; }
+
+img {
+  display: block; }
+
 /**
  * ---------------------------------------------------------------------------------
  * Image Styles
