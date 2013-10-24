@@ -21,7 +21,7 @@ $t-size: 14px;
  */
 
 body {
-  font-family: 'Adelle Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "adelle-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #333333;
@@ -47,6 +47,24 @@ hr {
 
 img {
   display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+small {
+  font-size: 100%;
+}
+
+p {
+  margin: 0;
 }
 
 /**
@@ -114,7 +132,7 @@ img {
     background: white;
   }
   th {
-    font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     background-color: #318C19;
     background-image: linear-gradient(top, #228b07, #1f7d07);
@@ -148,7 +166,7 @@ img {
  */
 .t-h1 {
   font-size: 4.236em;
-  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 60px;
@@ -158,7 +176,7 @@ img {
 .t-h2 {
   font-size: 2.618em;
   line-height: 42px;
-  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: -1.5px;
   font-style: normal;
@@ -169,13 +187,13 @@ img {
   font-weight: normal;
   line-height: 1.1;
   letter-spacing: -1px;
-  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 .t-h4 {
   font-size: 1em;
-  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -266,7 +284,7 @@ img {
 }
 
 .t-strong {
-  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 
@@ -397,7 +415,8 @@ img {
   }
 }
 
-.t-copy.t-inverse {
+.t-inverseCopy {
+  @extend .t-copy;
   @extend .t-white;
   a,
   a:hover {

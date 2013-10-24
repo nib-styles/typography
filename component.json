@@ -11,6 +11,7 @@
     "necolas/normalize.css": "*",
     "nib-styles/responsive-grid": "*",
     "nib-styles/blocks": "*",
-    "suitcss/arrange": "*"
+    "suitcss/arrange": "*",
+    "nib-styles/buttons": "*"
   }
 }
