@@ -5,10 +5,10 @@
  * ---------------------------------------------------------------------------------
  */
 body {
-  font-family: "adelle-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Adelle Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #333333;
+  color: #555555;
   font-size: 14px;
   line-height: 1.5;
   vertical-align: baseline; }
@@ -41,6 +41,9 @@ small {
   font-size: 100%; }
 
 p {
+  margin: 0; }
+
+blockquote {
   margin: 0; }
 
 /**
@@ -100,7 +103,7 @@ p {
     text-align: left;
     background: white; }
   .t-table th {
-    font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     background-color: #318C19;
     background-image: linear-gradient(top, #228b07, #1f7d07);
@@ -129,7 +132,7 @@ p {
  */
 .t-h1, .t-copy h1, .t-inverseCopy h1 {
   font-size: 4.236em;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 60px;
@@ -138,7 +141,7 @@ p {
 .t-h2, .t-copy h2, .t-inverseCopy h2 {
   font-size: 2.618em;
   line-height: 42px;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: -1.5px;
   font-style: normal; }
@@ -148,12 +151,12 @@ p {
   font-weight: normal;
   line-height: 1.1;
   letter-spacing: -1px;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 .t-h4, .t-copy h4, .t-inverseCopy h4 {
   font-size: 1em;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase; }
 
@@ -214,6 +217,12 @@ p {
   font-size: 0.85714em;
   line-height: 18px; }
 
+.t-tiny {
+  font-size: 11px;
+  line-height: 15px; }
+.t-h1 .t-tiny {
+  font-size: 0.310em; }
+
 .t-legal, .t-copy small, .t-inverseCopy small {
   display: block; }
   .t-legal p, .t-copy small p, .t-inverseCopy small p,
@@ -229,7 +238,7 @@ p {
   color: #888; }
 
 .t-strong {
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Chrono Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500; }
 
 .t-white, .t-inverseCopy,
