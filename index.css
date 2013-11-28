@@ -106,7 +106,7 @@ blockquote {
     font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     background-color: #318C19;
-    background-image: linear-gradient(top, #228b07, #1f7d07);
+    background-image: linear-gradient(to bottom, #228b07, #1f7d07);
     color: #fff;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase; }
