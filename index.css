@@ -136,8 +136,7 @@ blockquote {
   font-weight: 300;
   font-style: normal;
   line-height: 60px;
-  letter-spacing: -2px;
-}
+  letter-spacing: -2px; }
 
 .t-h2, .t-copy h2, .t-inverseCopy h2 {
   font-size: 2.618em;
@@ -145,9 +144,8 @@ blockquote {
   font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: -1.5px;
   font-style: normal;
-  text-rendering:optimizeLegibility;
-  -webkit-font-smoothing:antialiased;
-}
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
 
 .t-h3, .t-copy h3, .t-inverseCopy h3 {
   font-size: 1.618em;
@@ -155,23 +153,20 @@ blockquote {
   line-height: 1.1;
   letter-spacing: -1px;
   font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-rendering:optimizeLegibility;
-  -webkit-font-smoothing:antialiased;}
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
 
 .t-h4, .t-copy h4, .t-inverseCopy h4 {
   font-size: 1em;
   font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
-
-.t-h5, .t-copy h5, .t-inverseCopy h5 {
+.t-h5 {
   font-size: 1.1em;
   font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  line-height: 23px;
-}
+  line-height: 23px; }
 
 /**
  * ---------------------------------------------------------------------------------
@@ -230,12 +225,6 @@ blockquote {
   font-size: 0.85714em;
   line-height: 18px; }
 
-.t-tiny {
-  font-size: 11px;
-  line-height: 15px; }
-.t-h1 .t-tiny {
-  font-size: 0.310em; }
-
 .t-legal, .t-copy small, .t-inverseCopy small {
   display: block; }
   .t-legal p, .t-copy small p, .t-inverseCopy small p,
@@ -243,6 +232,12 @@ blockquote {
   .t-copy small li,
   .t-inverseCopy small li {
     -webkit-font-smoothing: subpixel-antialiased; }
+
+.t-tiny {
+  font-size: 11px;
+  line-height: 15px; }
+  .t-h1 .t-tiny, .t-copy h1 .t-tiny, .t-inverseCopy h1 .t-tiny {
+    font-size: 0.310em; }
 
 .t-highlight, .t-copy mark, .t-inverseCopy mark {
   color: #318C19; }
@@ -264,8 +259,7 @@ blockquote {
 
 .t-lead {
   font-size: 1.28571em;
-  line-height: 23px;
-  text-align: left; }
+  line-height: 23px; }
 
 /**
  * ---------------------------------------------------------------------------------
