@@ -1,11 +1,20 @@
-/**
- * ---------------------------------------------------------------------------------
- * Global Styles
- * Don't edit these styles. They affect all things.
+/* - Webfonts-
+ * 
+ * We use Roboto and Open Sans, both are Google web fonts.
+ * Roboto is our display font for headings etc
+ * Open Sans is used for body copy.
+ *
+ * Usage intructions can be found here:
+ * https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
+ *
+ * Or use these links in the <head> of you HTML:
+ * These links have the font weights already set.
+ * Open sans <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+ * Roboto <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
  * ---------------------------------------------------------------------------------
  */
 body {
-  font-family: "adelle-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #555555;
@@ -103,7 +112,7 @@ blockquote {
     text-align: left;
     background: white; }
   .t-table th {
-    font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     background-color: #318C19;
     background-image: linear-gradient(to bottom, #228b07, #1f7d07);
@@ -132,7 +141,7 @@ blockquote {
  */
 .t-h1, .t-copy h1, .t-inverseCopy h1 {
   font-size: 4.236em;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 60px;
@@ -141,7 +150,7 @@ blockquote {
 .t-h2, .t-copy h2, .t-inverseCopy h2 {
   font-size: 2.618em;
   line-height: 42px;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: -1.5px;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -152,19 +161,19 @@ blockquote {
   font-weight: normal;
   line-height: 1.1;
   letter-spacing: -1px;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
 
 .t-h4, .t-copy h4, .t-inverseCopy h4 {
   font-size: 1em;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase; }
 
 .t-h5 {
   font-size: 1.1em;
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 23px; }
 
@@ -246,7 +255,7 @@ blockquote {
   color: #888; }
 
 .t-strong {
-  font-family: "colfax-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500; }
 
 .t-white, .t-inverseCopy,
