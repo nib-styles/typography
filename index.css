@@ -14,7 +14,7 @@
  * ---------------------------------------------------------------------------------
  */
 body {
-  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #555555;
@@ -101,8 +101,7 @@ blockquote {
   font-size: 13px;
   line-height: 18px;
   margin: 21px 0; }
-  .t-table td,
-  .t-table th {
+  .t-table td, .t-table th {
     font-size: inherit;
     margin: 0;
     overflow: visible;
@@ -112,7 +111,7 @@ blockquote {
     text-align: left;
     background: white; }
   .t-table th {
-    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     background-color: #318C19;
     background-image: linear-gradient(to bottom, #228b07, #1f7d07);
@@ -141,7 +140,7 @@ blockquote {
  */
 .t-h1, .t-copy h1, .t-inverseCopy h1 {
   font-size: 4.236em;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 60px;
@@ -150,7 +149,7 @@ blockquote {
 .t-h2, .t-copy h2, .t-inverseCopy h2 {
   font-size: 2.618em;
   line-height: 42px;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: -1.5px;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -161,19 +160,19 @@ blockquote {
   font-weight: normal;
   line-height: 1.1;
   letter-spacing: -1px;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
 
 .t-h4, .t-copy h4, .t-inverseCopy h4 {
   font-size: 1em;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase; }
 
 .t-h5 {
   font-size: 1.1em;
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 23px; }
 
@@ -231,22 +230,19 @@ blockquote {
  * ---------------------------------------------------------------------------------
  */
 .t-small, .t-legal, .t-copy small, .t-inverseCopy small {
-  font-size: 0.85714em;
+  font-size: 0.857142857em;
   line-height: 18px; }
 
 .t-legal, .t-copy small, .t-inverseCopy small {
   display: block; }
-  .t-legal p, .t-copy small p, .t-inverseCopy small p,
-  .t-legal li,
-  .t-copy small li,
-  .t-inverseCopy small li {
+  .t-legal p, .t-copy small p, .t-inverseCopy small p, .t-legal li, .t-copy small li, .t-inverseCopy small li {
     -webkit-font-smoothing: subpixel-antialiased; }
 
 .t-tiny {
   font-size: 11px;
   line-height: 15px; }
   .t-h1 .t-tiny, .t-copy h1 .t-tiny, .t-inverseCopy h1 .t-tiny {
-    font-size: 0.310em; }
+    font-size: 0.31em; }
 
 .t-highlight, .t-copy mark, .t-inverseCopy mark {
   color: #318C19; }
@@ -255,11 +251,10 @@ blockquote {
   color: #888; }
 
 .t-strong {
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500; }
 
-.t-white, .t-inverseCopy,
-.t-inverse {
+.t-white, .t-inverseCopy, .t-inverse {
   color: white;
   -webkit-font-smoothing: antialiased; }
 
@@ -267,7 +262,7 @@ blockquote {
   text-transform: uppercase; }
 
 .t-lead {
-  font-size: 1.28571em;
+  font-size: 1.285714286em;
   line-height: 23px; }
 
 /**
@@ -300,23 +295,9 @@ blockquote {
  */
 .t-copy *:first-child, .t-inverseCopy *:first-child {
   margin-top: 0; }
-.t-copy ul, .t-inverseCopy ul,
-.t-copy ol,
-.t-inverseCopy ol,
-.t-copy table,
-.t-inverseCopy table,
-.t-copy address,
-.t-inverseCopy address,
-.t-copy small,
-.t-inverseCopy small,
-.t-copy p,
-.t-inverseCopy p {
+.t-copy ul, .t-inverseCopy ul, .t-copy ol, .t-inverseCopy ol, .t-copy table, .t-inverseCopy table, .t-copy address, .t-inverseCopy address, .t-copy small, .t-inverseCopy small, .t-copy p, .t-inverseCopy p {
   margin-bottom: 10.5px; }
-.t-copy p, .t-inverseCopy p,
-.t-copy li,
-.t-inverseCopy li,
-.t-copy address,
-.t-inverseCopy address {
+.t-copy p, .t-inverseCopy p, .t-copy li, .t-inverseCopy li, .t-copy address, .t-inverseCopy address {
   -webkit-font-smoothing: antialiased; }
 .t-copy em, .t-inverseCopy em {
   font-style: italic; }
@@ -343,6 +324,5 @@ blockquote {
   text-transform: uppercase;
   margin-bottom: 0; }
 
-.t-inverseCopy a,
-.t-inverseCopy a:hover {
+.t-inverseCopy a, .t-inverseCopy a:hover {
   color: #fff; }
